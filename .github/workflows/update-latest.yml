@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Setup Node
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@1a4442cacd436585916779262731d5b162bc6ec7 # v3
     - name: Update tag
       env:
         "npm_config_//registry.npmjs.org/:_authToken": ${{ secrets.NPM_TOKEN }}
@@ -34,7 +34,7 @@ jobs:
     environment: release
     needs: tag-in-registry
     steps:
-      - uses: vedantmgoyal2009/winget-releaser@v2
+      - uses: vedantmgoyal2009/winget-releaser@93fd8b606a1672ec3e5c6c3bb19426be68d1a8b0 # v2
         with:
           identifier: pnpm.pnpm
           version: ${{ github.event.inputs.version }}
@@ -46,7 +46,7 @@ jobs:
     environment: release
     needs: tag-in-registry
     steps:
-      - uses: bluwy/release-for-reddit-action@v1
+      - uses: bluwy/release-for-reddit-action@4d948192aff856da22f19f9806b00b46ca384547 # v1
         with:
           username: ${{ secrets.REDDIT_USERNAME }}
           password: ${{ secrets.REDDIT_PASSWORD }}
@@ -63,7 +63,7 @@ jobs:
     steps:
       - name: Send toot to Mastodon
         id: mastodon
-        uses: cbrgm/mastodon-github-action@v1
+        uses: cbrgm/mastodon-github-action@d98ab3376f941df14d37d5737961de431c0838c6 # v1
         with:
           message: |
             pnpm@${{ github.event.inputs.version }} is out!

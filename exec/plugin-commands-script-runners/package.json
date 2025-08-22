@@ -60,7 +60,7 @@
     "@pnpm/types": "workspace:*",
     "@zkochan/rimraf": "^2.1.2",
     "didyoumean2": "^5.0.0",
-    "execa": "npm:safe-execa@0.1.2",
+    "execa": "npm:safe-execa@0.2.0",
     "p-limit": "^3.1.0",
     "path-exists": "^4.0.0",
     "path-name": "^1.0.0",

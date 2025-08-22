@@ -42,7 +42,7 @@
     "@types/ramda": "0.28.20",
     "@types/semver": "7.3.13",
     "@types/sinon": "^10.0.14",
-    "execa": "npm:safe-execa@0.1.2",
+    "execa": "npm:safe-execa@0.2.0",
     "path-exists": "^4.0.0",
     "sinon": "^15.0.4",
     "write-yaml-file": "^5.0.0"

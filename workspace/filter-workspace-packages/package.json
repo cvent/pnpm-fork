@@ -44,11 +44,11 @@
     "@types/is-windows": "^1.0.0",
     "@types/micromatch": "^4.0.2",
     "@types/ramda": "0.28.20",
-    "@types/touch": "^3.1.2",
+    "@types/touch": "^3.1.5",
     "ci-info": "^3.8.0",
     "is-windows": "^1.0.2",
     "tempy": "^1.0.1",
-    "touch": "3.1.0"
+    "touch": "3.1.1"
   },
   "funding": "https://opencollective.com/pnpm",
   "exports": {

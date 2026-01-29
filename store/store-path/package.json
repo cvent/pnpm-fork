@@ -35,14 +35,14 @@
     "path-absolute": "^1.0.1",
     "path-temp": "^2.0.0",
     "root-link-target": "^3.1.0",
-    "touch": "3.1.0"
+    "touch": "3.1.1"
   },
   "devDependencies": {
     "@pnpm/store-path": "workspace:*",
     "@types/is-windows": "^1.0.0",
     "@types/node": "^14.18.44",
     "@types/rimraf": "^3.0.2",
-    "@types/touch": "^3.1.2",
+    "@types/touch": "^3.1.5",
     "is-windows": "^1.0.2",
     "rimraf": "^3.0.2"
   },
